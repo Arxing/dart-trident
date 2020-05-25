@@ -1,0 +1,25 @@
+name: trident_generator
+description: API generator like retrofit.
+version: 1.0.0
+homepage: https://github.com/Arxing/dart-trident
+author: Arxing <meiswind711108@gmail.com>
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  dio: ^3.0.9
+  source_gen: ^0.9.4+5
+  build: ^1.2.1
+  trident: ^1.0.0
+  dartpoet: ^1.0.6+3
+  named_mode: ^1.0.2+1
+  xfile: ^1.0.0
+  json_annotation: ^3.0.0
+  analyzer: ^0.38.5
+
+dev_dependencies:
+  pedantic: ^1.8.0
+  build_runner: ^1.7.1
+  useful_extension: ^1.0.0
+  json_serializable: ^3.2.2

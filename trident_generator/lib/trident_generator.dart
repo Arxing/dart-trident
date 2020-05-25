@@ -1,0 +1,2 @@
+library trident_generator;
+

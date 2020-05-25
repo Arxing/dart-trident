@@ -1,0 +1,8 @@
+builders:
+  trident_generator:
+    import: "package:trident_generator/builder.dart"
+    builder_factories:
+    - tridentGenerator
+    build_extensions: {".dart": [".g.dart"]}
+    auto_apply: root_package
+    build_to: source
