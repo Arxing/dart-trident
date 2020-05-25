@@ -51,10 +51,10 @@ class TridentGenerator extends GeneratorForAnnotation<Trident> {
   }
 
   String _getHttpMethod(MethodElement element) {
-    return element.getHttpAnnotation().peek('path')?.stringValue;
+    return element.getHttpAnnotation().peek('method')?.stringValue;
   }
 
   String _getPath(MethodElement element) {
-    return element.getHttpAnnotation().peek('method')?.stringValue;
+    return element.getHttpAnnotation().peek('path')?.stringValue;
   }
 }

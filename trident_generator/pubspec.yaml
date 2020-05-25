@@ -1,6 +1,6 @@
 name: trident_generator
 description: API generator like retrofit.
-version: 1.0.0
+version: 1.0.2
 homepage: https://github.com/Arxing/dart-trident
 author: Arxing <meiswind711108@gmail.com>
 

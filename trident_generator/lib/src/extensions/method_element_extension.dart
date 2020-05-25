@@ -64,9 +64,6 @@ extension MethodElementExtension on MethodElement {
   List<ParamInfo> extractParams() {
     return this.parameters.where((paramElement) => paramElement.hasAnyAnnotation()).map((paramElement) {
       var paramName = paramElement.name;
-
-      print('${paramElement.type.displayName}');
-
       var paramType = TypeToken.ofFullName(paramElement.type.toString());
       var paramMode = paramElement.isOptionalNamed
           ? ParameterMode.named
